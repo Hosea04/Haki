@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap');
+*{
+    margin: 0;
+    outline: none;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+div.container{
+    background: white;
+}
+.contact-form{
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.form{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    padding:10px 20px;
+    border: none;
+    border-bottom: black solid 1px;
+}
+.form-btn{
+    float: right;
+    border: rgb(68, 8, 8) 1px solid;
+    border-radius: 6px;
+    padding: 9px;
+    background: white;
+    transition: .25;
+}
+.form-btn:hover{
+    background: rgb(77, 20, 20);
+    color: #fff;
+}
+.map{
+    padding: 20px;
+}
